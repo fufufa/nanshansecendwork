@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    grid-template-areas: "oe three three four"
+                         "tow three three five"
+                         "six six seven eight"
+                         "six six night ten";
+}
+.item {
+    margin: 10px;
+    background-color: rgb(70, 66, 66);
+}
+.one {
+    grid-area: oe;
+    background-color: lightcoral;
+}
+.tow {
+    grid-area: tow;
+
+}
+.three{
+    grid-area: three;
+
+}
+.four{
+    grid-area: four;
+  
+}
+.five{
+    grid-area: five;
+  
+}
+.six {
+    grid-area: six;
+
+}
+.seven{
+    grid-area: seven;
+  
+}
+.eight{
+    grid-area: eight;
+   
+}
+.night{
+    grid-area: night; 
+}
+.ten{
+    grid-area: ten;
+}

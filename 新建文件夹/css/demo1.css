@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box1 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    box-shadow: 5px 10px 10px;
+    border-radius: 10%;
+}
+.head {
+    background-color: blue;
+    height: 50%;
+    border-radius: 5% 5% 0 0;
+}
+.nae {
+    background-color: white;
+    height: 10%;
+}
+.foot {
+    background-color: white;
+    height: 40%;
+    border-radius: 0 0 5% 5%;
+    padding: 0 15px;
+    color: rgb(192, 191, 191);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
